@@ -1,0 +1,15 @@
+syntax = "proto2";
+
+
+
+option java_package = "server.proto";
+
+
+message Student {
+  
+  required string name = 1;
+  required int32 id = 2;
+  optional string school = 3;
+
+  
+}
